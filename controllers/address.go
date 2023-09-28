@@ -2,26 +2,26 @@ package controllers
 
 import "github.com/gin-gonic/gin"
 
-func AddAddress() gin.HandlerFunc {
+func (app *Application) AddAddress() gin.HandlerFunc {
 	return func(ctx *gin.Context) {
 
 	}
 }
 
-func EditHomeAddress() gin.HandlerFunc {
-	return func(ctx *gin.Context) {
+func (app *Application) EditHomeAddress() gin.HandlerFunc {
+	return func(c *gin.Context) {
 
 	}
 }
 
-func EditWorkHomeAddress() gin.HandlerFunc {
-	return func(ctx *gin.Context) {
+func (app *Application) EditWorkHomeAddress() gin.HandlerFunc {
+	return func(c *gin.Context) {
 
 	}
 }
 
-func DeleteAddress() gin.HandlerFunc {
-	return func(ctx *gin.Context) {
+func (app *Application) DeleteAddress() gin.HandlerFunc {
+	return func(c *gin.Context) {
 
 	}
 }
