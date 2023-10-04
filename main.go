@@ -6,7 +6,8 @@ import (
 
 	"github.com/MrBooi/ecommerce-cart/controllers"
 	"github.com/MrBooi/ecommerce-cart/database"
-	"github.com/MrBooi/ecommerce-cart/middleware"
+
+	middleware "github.com/MrBooi/ecommerce-cart/middleware"
 	"github.com/MrBooi/ecommerce-cart/routes"
 	"github.com/gin-gonic/gin"
 )
