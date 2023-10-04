@@ -10,6 +10,8 @@ import (
 	"github.com/go-playground/validator/v10"
 	"golang.org/x/crypto/bcrypt"
 
+	generate "github.com/MrBooi/ecommerce-cart/tokens"
+
 	"github.com/MrBooi/ecommerce-cart/database"
 	"github.com/MrBooi/ecommerce-cart/models"
 	"github.com/gin-gonic/gin"
